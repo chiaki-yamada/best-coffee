@@ -10,15 +10,15 @@
 </head>
 
 <body>
-  <div class="container">
-    <header class="header">
+  <header>
+    <div class="header">
       <div class="header-inner">
-        <h1 class="header__title header-title">
+        <h1 class="header-logo">
           <a href="#">
             <img src="imgs/logo.png" alt="logo">
           </a>
         </h1>
-
+  
         <nav class="header__nav nav" id="js-nav">
           <ul class="nav__items nav-items">
             <li><a href="#">ABOUT</a></li>
@@ -27,27 +27,160 @@
             <li><a href="#">CONTACT</a></li>
           </ul>
         </nav>
-          
       
         <button class="header__hamburger hamburger" id="js-hamburger">
           <span></span>
           <span></span>
           <span></span>
-        </button>  
-  
-        
-        
+        </button>    
       </div>
-    </header>
+    </div>
+    
 
-    <main>
+    <div class="header-title">
+      <img src="imgs/main-header.jpg" alt="main-header-img" class="page-img">
+      <h1 class="page-title">BEST<br>GOURMET<br>COFFEE</h2>
+    </div>   
+  </header>
+  
+  
 
-    </main>
 
-    <footer>
+  <main>
+    <!-- About -->
+    <div class="container">
+      <div class="title">
+        <h2>ABOUT</h2>
+      </div>
 
-    </footer>
-  </div>
+      <div class="about-info">         
+        <div class="about-text">
+          <p>Since 1989 Best Gourmet Coffee Company has been serving our customers with premium quality coffee at an affordable price all the while focusing on sustainability and positive outcomes.
+          Our family owned company has been roasting coffee for generations of Canadians providing good jobs for people here in BC. All of our coffee in now roasted in super efficient Loring roasters which use 80% less gas than traditional roasters. Meaning less fossil fuel and less air pollution when compared to our competitors.
+          What does this mean to you? More reasons to love our coffee, and also save a bit of money too!</p>
+          
+        </div>
+
+        <div class="about-img">
+          <img src="imgs/about.jpg" alt="about-img">
+        </div>         
+      </div>
+    </div>
+
+    <!-- Products -->
+    <div class="background">
+      <div class="container">
+        <div class="product-info">
+          <div class="title">
+            <h2>PRODUCTS</h2>
+          </div>
+          <div class="desc">
+            <p>Our Colombian coffee is known for its complex, well-balanced flavor that combines a mild, smooth body with a bright, fruity acidity. It has subtle notes of chocolate, caramel, and nutty flavors that are often described as sweet and mellow. The aroma is equally delightful, with a rich and inviting scent that can be almost floral at times.</p>
+          </div>
+    
+          <div class="card-container">
+            <div class="card">
+              <div class="card-img">
+                <img src="imgs/product1.png" alt="product1">
+              </div>
+              <div class="card-text">
+                <h3>Colombia Excelso</h3>
+                <p>C$11.99</p>
+              </div>
+            </div> 
+  
+            <div class="card">
+              <div class="card-img">
+                <img src="imgs/product1.png" alt="product1">
+              </div>
+              <div class="card-text">
+                <h3>Colombia Excelso</h3>
+                <p>C$11.99</p>
+              </div>
+            </div> 
+  
+            <div class="card">
+              <div class="card-img">
+                <img src="imgs/product1.png" alt="product1">
+              </div>
+              <div class="card-text">
+                <h3>Colombia Excelso</h3>
+                <p>C$11.99</p>
+              </div>
+            </div> 
+          </div>
+          
+          <button class="btn"><a href="#">SEE MORE</a></button>
+        </div>       
+      </div>
+    </div>
+
+    <!-- News -->
+    <div class="container">
+      <div class="news-info">
+        <div class="title">
+          <h2>NEWS</h2>
+        </div>
+  
+        <div class="card-container">
+          <div class="card">
+            <div class="card-img">
+              <img src="imgs/product1.png" alt="product1">
+            </div>
+            <div class="card-text">
+              <h3>Colombia Excelso</h3>
+              <p>C$11.99</p>
+            </div>
+          </div> 
+  
+          <div class="card">
+            <div class="card-img">
+              <img src="imgs/product1.png" alt="product1">
+            </div>
+            <div class="card-text">
+              <h3>Colombia Excelso</h3>
+              <p>C$11.99</p>
+            </div>
+          </div> 
+  
+          <div class="card">
+            <div class="card-img">
+              <img src="imgs/product1.png" alt="product1">
+            </div>
+            <div class="card-text">
+              <h3>Colombia Excelso</h3>
+              <p>C$11.99</p>
+            </div>
+          </div> 
+        </div>
+        
+        <button class="btn"><a href="#">SEE MORE</a></button>
+      </div>
+    </div>
+  </main>
+
+
+  <footer>
+    <div class="background">
+      <div class="container">
+        <div class="footer-container">
+          <div class="footer-info">
+            <h3>BEST GOURMET COFFEE</h3>
+            <P>119-6951 72 St Delta, BC V4G0A2</P>
+            <p><a href="mailto:info@bestgourmet.ca">info@bestgourmet.ca</a></p>
+            <p>604 465 5112</p>
+          </div>
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2610.7350038436903!2d-123.03029662365174!3d49.12966777137015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485de4d10a28841%3A0x42146c324a9ef913!2sDelta%20Coffee%20Works%20Inc!5e0!3m2!1sen!2sca!4v1686010609982!5m2!1sen!2sca" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div> 
+        <div class="copy-right">
+          <p>©2021 by Best Gourmet Coffee Wholesalers Ltd.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
 
   <script src="app.js"></script>
 
