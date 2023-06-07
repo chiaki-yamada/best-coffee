@@ -1,0 +1,48 @@
+.store-section {
+  text-align: center;
+  padding-bottom: 2rem;
+
+}
+.wholesale-desc p {
+  text-align: left;
+}
+.wholesale-img img{
+  width: 100%;
+  margin-top: 30px;
+}
+.btn {
+  margin-top: 5px;
+}
+
+.store-info li{
+  text-align: left;
+  list-style-type: disc;
+
+}
+.sub-title {
+  text-align: left;
+  margin-top: 60px;
+}
+.store h5 {
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .store-section {
+    padding: 1rem 5rem;
+  }
+  .wholesale-img img{
+    width: 400px;
+    margin-top: 30px;
+  }
+  .independent-grocers {
+    margin-top: 50px;
+  }
+  .stores {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
